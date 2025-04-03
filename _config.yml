@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Neuroglancer Benchmark
+title: NGL-bench
 email: kp0374@princeton.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Benchmark documentation for agentic proofreading of connectomes/neurons in Flywire/Neuroglancer.
@@ -28,9 +28,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
