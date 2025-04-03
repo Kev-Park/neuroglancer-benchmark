@@ -22,7 +22,7 @@ title: NGL-bench
 email: kp0374@princeton.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Benchmark documentation for agentic proofreading of connectomes/neurons in Flywire/Neuroglancer.
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
