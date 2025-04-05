@@ -2,18 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-title: Home
-permalink: /
+title: Motivation
+permalink:
 nav_order: 0
 ---
-
-<meta http-equiv="refresh" content="0; url=/docs/" />
-
 # 🧠 Overview
 
 A connectome is a comprehensive map of neural connections in the brain. Significant interest lies in being able to automatically collect full connectomes; accurate and full wirings would facilitate neuroscience research that could improve society's general understanding of brain functionality, with broad ramifications for advancing healthcare and technology.
 
-![Ring neurons](./media/images/connectome.jpg)
+![Ring neurons](../media/images/connectome.jpg)
 ***Ring neurons in a fruit fly brain.***
 
 The pipeline to obtain full connectomes (brain wirings) has been steadily approaching full automation. Current SOTA procecsses involving obtaining images of the brain by electron microscopy, which are processed by segmentation models to then build comprehensive 3D models of individual neurons. However, despite the superhuman precision of said models, their outputs of the reconstructed neurons bear errors.
@@ -21,7 +18,7 @@ The pipeline to obtain full connectomes (brain wirings) has been steadily approa
 At the [Seung lab](https://seunglab.org/), teams of human proofreaders **manually** find these errors on the connectome of a female Drosophila and correct them through a web interface called Neuroglancer, which allows for both 3D and 2D cross-section visualization of neuron data.
 
 <video width="600" autoplay loop muted playsinline controls preload="auto" style="max-width: 100%; height: auto;" onerror="console.error('Video error:', this.error);">
-  <source src="./media/videos/video_1_proofreading.mp4" type="video/mp4">
+  <source src="../media/videos/video_1_proofreading.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 ***An example of proofreading.***
