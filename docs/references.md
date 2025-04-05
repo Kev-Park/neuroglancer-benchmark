@@ -6,4 +6,5 @@ parent: Integration Documentation
 ---
 # 🖥️ References
 
-Work in progress!
+## Environment
+**ngllib.Environment(headless=False, config_path='config.json', verbose=False, start_url=None)**
