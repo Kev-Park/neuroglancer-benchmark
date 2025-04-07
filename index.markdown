@@ -17,7 +17,8 @@ The pipeline to obtain full connectomes (brain wirings) has been steadily approa
 
 At the [Seung lab](https://seunglab.org/), teams of human proofreaders **manually** find these errors on the connectome of a female Drosophila and correct them through a web interface called Neuroglancer, which allows for both 3D and 2D cross-section visualization of neuron data.
 
-<video width="600" autoplay loop>
+
+<video width="600" autoplay loop muted playsinline controls preload="auto" style="max-width: 100%; height: auto;" onerror="console.error('Video error:', this.error);">
   <source src="./media/videos/video_1_proofreading.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

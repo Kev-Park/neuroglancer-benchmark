@@ -6,7 +6,59 @@ nav_order: 1
 ---
 # 🏆 Leaderboard
 
-Work in progress!
+<div class="leaderboard-container">
+  <table class="leaderboard">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Organization</th>
+        <th>Model</th>
+        <th>Site</th>
+        <th>Score</th>
+        <th>Video</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>YYYY-MM-DD</td>
+            <td>Example Lab</td>
+            <td>Example Model</td>
+            <td><a href=" " target="_blank">🔗</a></td>
+            <td>000</td>
+            <td><a href=" " target="_blank">📽️</a></td>
+        </tr>
+      
+        <tr>
+            <td>YYYY-MM-DD</td>
+            <td>Example Lab</td>
+            <td>Example Model</td>
+            <td><a href=" " target="_blank">🔗</a></td>
+            <td>000</td>
+            <td><a href=" " target="_blank">📽️</a></td>
+        </tr>
+
+        <tr>
+            <td>YYYY-MM-DD</td>
+            <td>Example Lab</td>
+            <td>Example Model</td>
+            <td><a href=" " target="_blank">🔗</a></td>
+            <td>000</td>
+            <td><a href=" " target="_blank">📽️</a></td>
+        </tr>
+
+        <tr>
+            <td>YYYY-MM-DD</td>
+            <td>Example Lab</td>
+            <td>Example Model</td>
+            <td><a href=" " target="_blank">🔗</a></td>
+            <td>000</td>
+            <td><a href=" " target="_blank">📽️</a></td>
+        </tr>
+    
+
+    </tbody>
+  </table>
+</div>
 
 # Challenge Overview
 

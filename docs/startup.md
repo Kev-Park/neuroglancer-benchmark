@@ -14,7 +14,7 @@ Interactions with Neuroglancer are made through Chrome, through use of Selenium 
 
 Chromedriver **is not** installed by default when downloading Chrome. You must install the specific version of Chromedriver matching your current Chrome installation's version that also corresponds to your operating system. You can find your current Chrome version by launching Google Chrome and entering **chrome://version/** in the URL.
 
-To install the correct version of Chromedriver, visit [this installation page](https://googlechromelabs.github.io/chrome-for-testing/) and copy the correct installation link for your Chrome version and OS. Download the provided *.zip* file and unzip it, ideally in root folder of your development folder.
+To install the correct version of Chromedriver, visit [this installation page](https://googlechromelabs.github.io/chrome-for-testing/) and copy the correct installation link for your Chrome version and OS. Download the provided **.zip** file and unzip it, ideally in root folder of your development folder.
 
 Keep in mind you may have to install new Chromedriver versions if your Chrome install updates; we hole to roll out an alternative system for Chrome + Chromedriver versioning for the future.
 
