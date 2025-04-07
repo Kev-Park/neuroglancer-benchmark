@@ -70,7 +70,7 @@ Submissions will be evaluated on private data not made available to the public.
 
 ## Sub-Challenge 1: Navigation
 
-Sub-Challenge 1 is a navigational task: to **achieve the highest z-position for a given neuron**. Your agent, when initialized at an arbitrary z-position on a single neuron, should be able to navigate (via clicking, keyboard interactions, etc.) to the top z-position of the neuron. 
+Sub-Challenge 1 is a navigational task: to **achieve the highest z-position for a given neuron**. Your agent, when initialized at an arbitrary XYZ-position on a random neuron, should be able to navigate (via clicking, keyboard interactions, etc.) to the top z-position of the neuron. 
 
 ## Evaluation Criteria
 - Rotational invariance
@@ -81,3 +81,9 @@ Sub-Challenge 1 is a navigational task: to **achieve the highest z-position for 
     - *How efficient is your agent at navigating?*
 
 ## Demonstrations
+
+<video width="600" autoplay loop muted playsinline controls preload="auto" style="max-width: 100%; height: auto;" onerror="console.error('Video error:', this.error);">
+  <source src="../media/videos/example_high_z.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+***An example of reaching highest z-position.***
